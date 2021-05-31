@@ -57,7 +57,6 @@ export function App() {
         selectedGenreId={selectedGenreId}
         handleClickButton={setSelectedGenreId}
       />
-
       <div className="container">
         <Content title={selectedGenre.title} movies={movies} />
       </div>

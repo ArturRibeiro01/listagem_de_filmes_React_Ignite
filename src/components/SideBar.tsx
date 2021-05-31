@@ -10,7 +10,6 @@ interface Props {
   selectedGenreId: number;
   handleClickButton: (id: number) => void;
 }
-
 export function SideBar(props: Props) {
   return (
     <nav className="sidebar">
