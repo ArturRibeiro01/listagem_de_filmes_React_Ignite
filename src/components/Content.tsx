@@ -23,7 +23,6 @@ export function Content(props: Props) {
           Categoria:<span> {props.title}</span>
         </span>
       </header>
-
       <main>
         <div className="movies-list">
           {props.movies.map((movie) => (
